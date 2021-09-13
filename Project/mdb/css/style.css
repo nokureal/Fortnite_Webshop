@@ -1,0 +1,12 @@
+body{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.navbar-brand {
+    font-family: 'Luckiest Guy', cursive;
+}
+.navbar{
+    font-size: small;
+    background-color: rgb(42, 42, 42) !important;
+}
