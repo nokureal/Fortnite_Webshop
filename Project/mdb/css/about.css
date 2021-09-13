@@ -1,0 +1,36 @@
+body {
+
+
+background-color: blue;
+font-family: Arial;
+color: brown;
+font-variant: small-caps;
+font-size: 3em;
+background-image: url("https://cdn2.unrealengine.com/14br-consoles-1920x1080-wlogo-1920x1080-432974386.jpg");
+display: block;
+text-align: justify;
+}
+
+ul {
+
+list-style: none;
+
+
+}
+
+.col-12:hover {
+    background-color: red;
+}
+
+h1 {
+text-align: center;
+
+}
+
+.navbar-brand {
+    font-family: 'Luckiest Guy', cursive;
+}
+.navbar{
+    font-size: small;
+    background-color: rgb(42, 42, 42) !important;
+}
