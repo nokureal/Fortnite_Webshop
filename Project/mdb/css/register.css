@@ -30,7 +30,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d651",endCo
 #register h2,h3{
     font-family: 'Luckiest Guy', cursive;
 
-    color: rgb(230, 230, 40);
+    color: white;
     text-align: center;
 }
 #register h2{
@@ -240,4 +240,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d651",endCo
     #register h3{
         font-size: calc(0.2em + 0.7vw + 2.345vh);
     }
+}
+#register{
+    top: calc(56px + 3vh);
 }
