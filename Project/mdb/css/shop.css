@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 body{
     font-family: Luckiest Guy;
+    
 }
 body>main>section>div:nth-child(1){
     background-image: url(https://cdn2.unrealengine.com/Fortnite%2Fposa-card-redemption%2FBG_1907x939_1567968566929_1907x878_1569312335335-1907x877-d35d9e0920677225dd2b1065a0193fa848712bfa.png);
@@ -18,6 +19,7 @@ img{
 }
 header{
     border-bottom: 10px darkslateblue solid;
+    margin-top: 56px;
 }
 
 .cover {
