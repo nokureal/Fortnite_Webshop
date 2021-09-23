@@ -8,7 +8,7 @@ background: radial-gradient(circle at bottom, rgba(226,214,81,1) 0%, rgba(226,21
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d651",endColorstr="#5d90c9",GradientType=1);
     background-color: #ff0;
     background-size: 200vh;
-    background-size: 100%;
+    background-size: cover;
     background-clip: border-box;
     background-origin: border-box;
     background-position-x: 0px;
@@ -36,7 +36,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d651",endCo
 #login h2{
     font-size: calc(2.3rem + 3vw + 2vh);
     line-height: 40%;
-    margin-bottom: none;
     margin-top: calc(20px + 2vh);
 }
 #login h3{
@@ -102,6 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d651",endCo
     transition-property: background;
     transition-duration: 0.2s;
     box-shadow: 3px 3px 0px black;
+    font-family: 'Luckiest Guy', cursive !important;
 }
 
 #login_btn:active{
@@ -182,5 +182,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2d651",endCo
     }
     #to_register{
         margin-top: 0px;
+    }
+    #login{
+        top: calc(56px + 3vh);
+
     }
 }
